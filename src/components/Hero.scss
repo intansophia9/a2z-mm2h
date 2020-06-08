@@ -1,0 +1,35 @@
+.defaultHero {
+  min-height: calc(100vh - 90px);
+  background: url("../images/flag.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.benefitHero {
+  min-height: calc(100vh - 90px);
+  background: url("../images/cameron.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.procedHero {
+  min-height: calc(100vh - 90px);
+  background: url("../images/city.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 800px) {
+  .defaultHero {
+    min-height: 50vh;
+    width: 100vw;
+  }
+  .benefitHero {
+    min-height: 50vh;
+    width: 100vw;
+  }
+  .procedHero {
+    min-height: 50vh;
+    width: 100vw;
+  }
+}

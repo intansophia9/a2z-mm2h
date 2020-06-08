@@ -1,0 +1,49 @@
+.flag-img {
+  height: 700px;
+  width: 100%;
+}
+.column-left {
+  float: left;
+  width: 70%;
+  border-right: 1px ridge grey;
+}
+.column-right {
+  padding-top: 30px;
+  float: left;
+  width: 30%;
+}
+.about-title {
+  text-align: center;
+}
+.about-content {
+  text-align: left;
+  width: 65vw;
+}
+.about-map {
+  text-align: center;
+}
+.about-question {
+  width: 65vw;
+  padding-left: 20px;
+  text-align: left;
+}
+.map {
+  height: 300px;
+}
+
+@media screen and (max-width: 800px) {
+  .flag-img {
+    height: 400px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .column-left,
+  .column-right {
+    width: 100%;
+  }
+  .map {
+    width: 70vw;
+    padding: none;
+  }
+}

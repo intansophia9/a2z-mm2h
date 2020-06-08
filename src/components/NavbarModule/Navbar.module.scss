@@ -1,0 +1,202 @@
+$testingColor: powderblue;
+$dropdownColor: whitesmoke;
+$signatureColor: navy;
+
+.navbar {
+  position: fixed;
+  top: 0;
+  height: 75px;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  z-index: 9999;
+}
+
+.DALogo {
+  transform: translatey(0%);
+  left: 1%;
+  margin-top: 0px;
+  position: relative;
+  width: 200px;
+  height: inherit;
+  float: left;
+}
+
+.navLink {
+  display: flex;
+  list-style: none;
+  width: 70%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 2%;
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* TOP RIGHT BOTTOM LEFT */
+    margin: 20px 0px 20px 0px;
+  }
+  a:hover {
+    color: blue;
+  }
+}
+
+.hamburger {
+  display: none;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.apartmentBtn {
+  cursor: pointer;
+  height: 20px;
+  font-size: 16px;
+  background: transparent;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  /* TOP RIGHT BOTTOM LEFT */
+  margin: 15px 0px 20px 0px;
+  &:hover {
+    color: blue;
+  }
+}
+
+//REDLINE HOVER FOR APARTMENT BUTTON
+.apartmentBtn:hover::after {
+  content: "";
+  display: block;
+  background-color: navy;
+  height: 3px;
+  margin-top: 15px;
+}
+
+//APARTMENT DROPDOWN MENU
+.dropdownMenu {
+  height: 0;
+  overflow: hidden;
+  background-color: $dropdownColor;
+  top: 100%;
+  opacity: 0.9;
+  right: 0px;
+  width: 100%;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px navy;
+  li {
+    width: 77%;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 7%;
+    margin-bottom: 20px;
+    text-align: left;
+    list-style: none;
+    padding: 30px;
+    border-bottom: 1px solid midnightblue;
+  }
+}
+
+//Apartment Drop animation
+.dropdownAnimation {
+  width: 100%;
+  background-color: $dropdownColor;
+  height: 75vh;
+  overflow-y: scroll;
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+// Apartment Go up animation
+.popupAnimation {
+  height: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+@media screen and (max-width: 800px) {
+  .DALogo {
+    left: 4%;
+  }
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 6%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+    z-index: 1;
+    display: inline-block;
+  }
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 30px;
+    height: 3px;
+    background: black;
+    margin: 5px;
+    transition: 0.4s;
+  }
+
+  .barChg1 {
+    transform: rotate(-45deg) translate(-6px, 4px);
+  }
+  .barChg2 {
+    opacity: 0;
+  }
+  .barChg3 {
+    transform: rotate(45deg) translate(-6px, -7px);
+  }
+
+  .navLink {
+    flex-direction: column;
+    position: fixed;
+    height: 50%;
+    width: 100%;
+    clip-path: circle(100px at 100% -30%);
+    -webkit-clip-path: circle(100px at 100% -30%);
+    transition: all 0.8s ease-out;
+    a {
+      margin-right: 800px;
+    }
+  }
+
+  .showNav {
+    width: 100%;
+    clip-path: circle(1500px at 90% -30%);
+    -webkit-clip-path: circle(1500px at 90% -30%);
+    background-color: $dropdownColor;
+    opacity: 0.9;
+  }
+
+  .apartmentBtn {
+    margin-right: 800px;
+  }
+
+  .apartment:hover::after {
+    width: 115px;
+    float: left;
+  }
+
+  .dropdownMenu {
+    top: 62%;
+    opacity: 1;
+  }
+  .dropdownMenu.dropdownAnimation {
+    width: 100%;
+    height: 450px;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .dropdownMenu li {
+    width: 60%;
+    margin-left: 5%;
+  }
+  .DALogo {
+    width: 160px;
+    height: inherit;
+  }
+}

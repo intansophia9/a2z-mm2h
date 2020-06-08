@@ -1,0 +1,41 @@
+.procTitle {
+  padding-top: 80px;
+  text-align: center;
+}
+.procContent {
+  text-align: left;
+  width: 70vw;
+  padding-bottom: 50px;
+  border-bottom: 1px solid grey;
+}
+h2 {
+  color: black;
+}
+
+.card {
+  border: 2px solid navy;
+  width: 90vw;
+  height: inherit;
+  background: whitesmoke;
+  padding-right: 10px;
+  padding-left: 10px;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.educards {
+  border: none;
+}
+@media screen and (max-width: 500px) {
+  .card {
+    border: 2px solid navy;
+    width: 90vw;
+    max-width: 1170px;
+    height: inherit;
+    background: whitesmoke;
+    margin-bottom: 5px;
+  }
+  .educards {
+    border: none;
+    width: 70vw;
+  }
+}
