@@ -30,6 +30,11 @@ export default function Car() {
           </a>{" "}
           website to find out more. <br />
           <br />
+          <a href="http://www.designerapartments.com.my/">
+            <button>Designer Apartments</button>
+          </a>
+          <br />
+          <br />
           Children are allowed to inherit the property without any tax or duty.
           However, property purchase is <b>not</b> a pre-requisite for
           participating in the MM2H programme.

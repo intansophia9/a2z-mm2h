@@ -47,7 +47,7 @@ export default function Footer() {
       </div>
       <div className="footer-bottom">
         <p className="copyrightFooter">
-          <FaRegCopyright /> 2020 SopGab Sdn Bhd <p>All rights reserved</p>
+          <FaRegCopyright /> Copyright 2014 <p>All rights reserved</p>
         </p>
       </div>
     </footer>
