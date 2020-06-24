@@ -22,7 +22,6 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/benefits" component={Benefits} />
           <Route exact path="/services" component={Services} />
-          <Route exact path="/services#car" component={Services} />
           <Route exact path="/services#domestic" component={Services} />
           <Route exact path="/services#education" component={Services} />
           <Route exact path="/services#tax" component={Services} />

@@ -18,13 +18,13 @@ export default function Procedures() {
         Eligibility
       </h1>
       <p className="procContent">
-        All applicant must have offshore income of <b>minimum</b> RM10,000
+        All applicant must have offshore income of <b>minimum</b> RM13,000
         (USD3,100) per month.
         <br />
         <br />
         For applicants <b>below 50 years old</b>, you have to show your liquid
-        assets over RM500,000 (USD155,000). Applicants <b>over 50 years old </b>
-        have show assets over RM350,000 (USD 108,500).
+        assets over RM662,000 (USD155,000). Applicants <b>over 50 years old </b>
+        have show assets over RM463,000 (USD 108,500).
         <br />
         <br />
         Feel free to contact us to get more information on the criteria needed
@@ -42,7 +42,7 @@ export default function Procedures() {
         <br />
         <br />
         We will submit your application within 5 working days after we receive
-        your complete documents. Ministry will take 90 workings day or more to
+        your completed documents. Ministry will take 140 working days or more to
         get the <b>MM2H conditional approval letter</b>.
         <br />
         <br />
@@ -55,9 +55,15 @@ export default function Procedures() {
         to Malaysia <b>within six months</b> to get MM2H visa endorse on your
         passport. If you cannot make it in time, you have to let us know{" "}
         <b>one month before the expiry date</b> and we will appeal for an
-        extension of six months*. <br />
+        extension of one month*. <br />
         <br />
-        <i>*The government will allow for only six months extension.</i>
+        <i>*The government will allow for only one month extension.</i>
+        <br />
+        <br />
+        <i>
+          **The extension will only be allowed if the applicant is{" "}
+          <b>deemed unfit to travel</b> to Malaysia due to hospitalization.
+        </i>
       </p>
       <h1 className="procTitle">Procedures</h1>
       <div class="card">
@@ -98,15 +104,9 @@ export default function Procedures() {
             <b>1. Open a fixed deposit account : </b>
             <br />
             i) Age <u>below 50 years old</u> - Open a fixed deposit account of
-            RM150,000 (roughly USD46,500) with any bank in Malaysia <br />
+            RM30,000 (roughly USD7,000) with any bank in Malaysia <br />
             ii) Age <u>50 years and above </u>- Open a fixed deposit account of
             RM150,000 (roughly USD46,500) with any bank in Malaysia
-            <br />
-            <br />
-            <i>
-              * If you have purchased residential property costing a minimum of
-              RM1 million, you are exempted from the full deposit requirement.
-            </i>
             <br />
             <br />
             <b>2.Medical check up in Malaysia.</b> <br />
@@ -128,11 +128,12 @@ export default function Procedures() {
             <b>10 years multi-entry visa </b>for MM2H.
             <br /> It is renewable for your entire life time. <br />
             <br />
-            Fixed deposit can now be withdrawn after one year for the following
-            reasons:
+            Part of your fixed deposit can now be withdrawn after one year for
+            the following reasons:
             <br /> A) Purchase of a house in Malaysia
-            <br /> B) Medical treatment in Malaysia
-            <br /> C) Education for your children in Malaysia
+            <br /> B) Purchase of a car in Malaysia
+            <br /> C) Medical treatment in Malaysia
+            <br /> D) Education for your children in Malaysia
           </p>
         </Slide>
       </div>

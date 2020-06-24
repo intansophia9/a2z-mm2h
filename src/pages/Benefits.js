@@ -15,7 +15,9 @@ export default function Benefits() {
 
       <br />
       <Slide left>
+        <br />
         <h1 className="title">...We are a 100% risk-free program</h1>
+        <br />
       </Slide>
       <br />
       <CardColumns className="cards">
@@ -30,6 +32,7 @@ export default function Benefits() {
             </CardBody>
           </Card>
         </Bounce>
+        <br />
         <Bounce>
           <Card body outline color="secondary">
             <CardBody>
@@ -53,6 +56,7 @@ export default function Benefits() {
             </CardBody>
           </Card>
         </Bounce>
+        <br />
         <Bounce>
           <Card body outline color="secondary">
             <CardBody>
@@ -70,29 +74,19 @@ export default function Benefits() {
               <CardTitle className="heading">Property purchase</CardTitle>
               <CardText>
                 You are allowed to purchase unlimited properties with a minimum
-                of MYR 1million per unit. MM2H Holders are able to get housing
-                loan or car loan from domestic banks.
+                of MYR 1.3 million per unit. MM2H Holders are able to get
+                housing loan or car loan from domestic banks.
               </CardText>
             </CardBody>
           </Card>
         </Bounce>
+        <br />
         <Bounce>
           <Card body outline color="secondary">
             <CardBody>
               <CardTitle className="heading">Invest</CardTitle>
               <CardText>
                 You can invest in unit trust, stock markets and local companies.
-              </CardText>
-            </CardBody>
-          </Card>
-        </Bounce>
-        <Bounce>
-          <Card body outline color="secondary">
-            <CardBody>
-              <CardTitle className="heading">Car</CardTitle>
-              <CardText>
-                MM2H Holder can buy one exempted car either local assembled car
-                or one imported car from their home country.
               </CardText>
             </CardBody>
           </Card>

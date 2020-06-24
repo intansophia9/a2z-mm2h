@@ -127,11 +127,7 @@ export class Navbar extends Component {
                     Property
                   </HashLink>
                 </li>
-                <li>
-                  <HashLink to="/services#car" onClick={this.handleBurger}>
-                    Import&nbsp;car
-                  </HashLink>
-                </li>
+
                 <li>
                   <HashLink to="/services#domestic" onClick={this.handleBurger}>
                     Domestic&nbsp;help

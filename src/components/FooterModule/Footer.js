@@ -36,7 +36,7 @@ export default function Footer() {
         <p>
           <u>Get in touch!</u>
         </p>
-        <FaPhone /> <a href="tel:60342703464">03-42703464</a>
+        <FaPhone /> <a href="tel:+60342703464">+603-42703464</a>
         <br />
         <br />
         <FaMapMarkerAlt />
@@ -47,7 +47,7 @@ export default function Footer() {
       </div>
       <div className="footer-bottom">
         <p className="copyrightFooter">
-          <FaRegCopyright /> Copyright 2014 <p>All rights reserved</p>
+          <FaRegCopyright /> Copyright 2014 A2Z-MM2H<p>All rights reserved</p>
         </p>
       </div>
     </footer>

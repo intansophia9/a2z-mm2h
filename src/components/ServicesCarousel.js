@@ -10,7 +10,7 @@ import {
 import "./Carousell.scss";
 
 // Slides
-import car from "../images/car.jpg";
+
 import business from "../images/business.jpg";
 import edu from "../images/edu.jpg";
 import condo from "../images/property.jpg";
@@ -31,17 +31,7 @@ const items = [
     ),
     className: "img",
   },
-  {
-    src: car,
-    altText: "Slide2",
-    header: "Import a car",
-    caption: (
-      <HashLink to="/services#car">
-        <button type="button">Learn more</button>
-      </HashLink>
-    ),
-    className: "img",
-  },
+
   {
     src: domestic,
     altText: "Slide3",

@@ -67,6 +67,16 @@ export default function About() {
               team to assist you in the whole process.
               <br />
               <br />
+              Under one umbrella, we have{" "}
+              <b>auditing,taxation and accounting services</b>. We also provide
+              assistance for your children's <b>education</b> needs from school
+              up to university. We have our own <b>property agents</b> to cater
+              to your property related questions and services. We also provide{" "}
+              <b>consultations</b> related to business and law should you be
+              needing them, all to make your stay in Malaysia as comfortable and
+              convenient as possible.
+              <br />
+              <br />
             </p>
           </Slide>
         </div>
@@ -84,11 +94,48 @@ export default function About() {
             <h2 className="about-title">ANY ENQUIRIES?</h2>
             <br />
             <p className="about-question">
-              Email us :
+              Email us :<br />
               <a href="mailto:info@a2z-mm2h.com.my">info@a2z-mm2h.com.my</a>
               <br />
+              <a href="mailto:zeenathamid1@yahoo.com">zeenathamid1@yahoo.com</a>
               <br />
-              Call us :<a href="tel:60342703464">03-42703464</a>
+              <a href="mailto:faridahhamid1113@gmail.com">
+                faridahhamid1113@gmail.com
+              </a>
+              <br />
+              <a href="mailto:rabiahhamid67@gmail.com">
+                rabiahhamid67@gmail.com
+              </a>
+              <br />
+              <br />
+              Call us :<br />
+              <a href="tel:+60342703464">+603-42703464</a>
+              <br />
+              <br />
+              Whatsapp us : <br />
+              <a
+                href="https://api.whatsapp.com/send?phone=60123151246
+
+"
+              >
+                +60123151246 -Zeenat
+              </a>
+              <br />
+              <a
+                href="https://api.whatsapp.com/send?phone=60178823572
+
+"
+              >
+                +60178823572 -Faridah
+              </a>
+              <br />
+              <a
+                href="https://api.whatsapp.com/send?phone=60178885355
+
+"
+              >
+                +60178885355 -Datin Rabiah
+              </a>
             </p>
           </Slide>
         </div>
