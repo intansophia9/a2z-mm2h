@@ -18,13 +18,13 @@ export default function Procedures() {
         Eligibility
       </h1>
       <p className="procContent">
-        All applicant must have offshore income of <b>minimum</b> RM13,000
-        (USD3,100) per month.
+        All applicant must have offshore income of <b>minimum</b> RM10,000
+        (USD2,300) per month.
         <br />
         <br />
         For applicants <b>below 50 years old</b>, you have to show your liquid
-        assets over RM662,000 (USD155,000). Applicants <b>over 50 years old </b>
-        have show assets over RM463,000 (USD 108,500).
+        assets over RM588,000 (USD37,500). Applicants <b>over 50 years old </b>
+        have show assets over RM374,000 (USD 87,500).
         <br />
         <br />
         Feel free to contact us to get more information on the criteria needed
@@ -41,9 +41,10 @@ export default function Procedures() {
         </b>
         <br />
         <br />
-        We will submit your application within 5 working days after we receive
-        your completed documents. Ministry will take 140 working days or more to
-        get the <b>MM2H conditional approval letter</b>.
+        We will submit your application within 3 working days after we receive
+        your completed documents. Ministry will take 6 to 8 months to get the{" "}
+        <b>MM2H conditional approval letter</b> depending on the number of
+        applications and if the period spans public holidays.
         <br />
         <br />
         <b>
@@ -62,7 +63,8 @@ export default function Procedures() {
         <br />
         <i>
           **The extension will only be allowed if the applicant is{" "}
-          <b>deemed unfit to travel</b> to Malaysia due to hospitalization.
+          <b>deemed unfit to travel</b> to Malaysia due to hospitalization(must
+          provide specialist doctor's letter).
         </i>
       </p>
       <h1 className="procTitle">Procedures</h1>
@@ -104,7 +106,7 @@ export default function Procedures() {
             <b>1. Open a fixed deposit account : </b>
             <br />
             i) Age <u>below 50 years old</u> - Open a fixed deposit account of
-            RM30,000 (roughly USD7,000) with any bank in Malaysia <br />
+            RM300,000 (roughly USD70,000) with any bank in Malaysia <br />
             ii) Age <u>50 years and above </u>- Open a fixed deposit account of
             RM150,000 (roughly USD46,500) with any bank in Malaysia
             <br />
