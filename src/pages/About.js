@@ -95,7 +95,9 @@ export default function About() {
             <br />
             <p className="about-question">
               Email us :<br />
-              <a href="mailto:info@a2z-mm2h.com.my">info@a2z-mm2h.com.my</a>
+              <a href="mailto:enquiry@a2z-mm2h.com.my">
+                enquiry@a2z-mm2h.com.my
+              </a>
               <br />
               <a href="mailto:zeenathamid1@yahoo.com">zeenathamid1@yahoo.com</a>
               <br />

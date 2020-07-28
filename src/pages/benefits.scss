@@ -7,14 +7,15 @@
   text-decoration: underline;
 }
 .cards {
-  height: 500px;
+  height: 1150px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 720px) {
   .cards {
+    height: 600px;
     width: 100vw;
   }
 }

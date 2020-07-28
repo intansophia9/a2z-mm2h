@@ -81,7 +81,7 @@ export default function Procedures() {
             Drop us an <b>email</b> and we will guide you on what documents you
             need to pass to us. <br />
             <br />
-            <a href="mailto:info@a2z-mm2h.com.my?subject=Documents needed for MM2H&body=Hello, I am [name] from [country]. I would like to know what documents do I need to apply for MM2H?">
+            <a href="mailto:enquiry@a2z-mm2h.com.my?subject=Documents needed for MM2H&body=Hello, I am [name] from [country]. I would like to know what documents do I need to apply for MM2H?">
               <button>Email Us</button>
             </a>
             <br />
